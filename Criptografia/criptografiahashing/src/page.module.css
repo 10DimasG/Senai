@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 53px auto;
+  padding: 32px;
+  width: 340px;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.linha {
+  text-align: center;
+  color: #1a1a2e;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.linha1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  text-align: left;
+  width: 100%;
+}
+
+.inputNome {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+
+.inputNome:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.inputNome::-webkit-outer-spin-button,
+.inputNome::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputNome {
+  -moz-appearance: textfield;
+}
+
+.botoes {
+  display: flex;
+  margin-top: 8px;
+  gap: 12px;
+  width: 100%;
+}
+
+.botaoE {
+  display: flex;
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.15s;
+}
+
+.botaoE:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
+
+.botaoC {
+  display: flex;
+  background-color: #f3f4f6;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.15s;
+}
+
+.botaoC:hover {
+  background-color: #e5e7eb;
+  transform: translateY(-1px);
+}   
